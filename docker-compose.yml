@@ -4,7 +4,7 @@ volumes:
 
 services:
    kdc:
-     image: gcavalcante8808/krb5-server
+     image: yuuzi41/krb5-server
      build: .
      restart: always
      ports:
